@@ -9,7 +9,7 @@
     "compiled/main.d.ts"
   ],
   "scripts": {
-    "build": "rimraf build && rimraf ts-out && tsc && rollup -c rollup.config.js"
+    "build": "rimraf build && rimraf compiled && tsc && rollup -c rollup.config.js"
   },
   "keywords": [],
   "author": "Chad Lavimoniere",
