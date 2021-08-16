@@ -3,19 +3,17 @@
   "version": "0.0.2",
   "description": "A swiss army knife component that accepts JSS on its `style` prop... but then turns those styles into @emotion/styled classes. Like writing inline styles, but not.",
   "main": "build/main.js",
-  "typings": "compiled/main.d.ts",
+  "typings": "build/main.d.ts",
   "files": [
-    "build.main.js",
-    "compiled/main.d.ts"
+    "build"
   ],
   "scripts": {
-    "build": "rimraf build && rimraf compiled && tsc && rollup -c rollup.config.js"
+    "build": "rimraf build && tsc"
   },
   "keywords": [],
   "author": "Chad Lavimoniere",
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "rollup": "^2.56.2",
     "typescript": "^4.3.5"
   },
   "dependencies": {
