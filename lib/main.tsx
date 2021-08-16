@@ -5,8 +5,10 @@ import styled from "@emotion/styled";
  * then turns those styles into @emotion/styled classes. Like writing inline
  * styles, but not.
  */
-export const Component = styled("div", {
+const Kit = styled("div", {
   shouldForwardProp: (p) => p !== "style"
 })(({style}) => ({
   ...style
 }));
+
+export default Kit
