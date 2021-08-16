@@ -1,5 +1,6 @@
-# kit
+# kit 
+[![npm version](https://badge.fury.io/js/%40chadlavi%2Fkit.svg)](https://www.npmjs.com/package/@chadlavi/kit)
 
 A swiss army knife component that accepts JSS on its `style` prop... but then turns those styles into `@emotion/styled` classes. Like writing inline styles, but not.
 
-See also [kit-tokens](https://github.com/chadlavi/kit-tokens)
+See also [kit-tokens](https://github.com/chadlavi/kit-tokens).
