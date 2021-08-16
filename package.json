@@ -1,6 +1,6 @@
 {
   "name": "@chadlavi/kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A swiss army knife component that accepts JSS on its `style` prop... but then turns those styles into @emotion/styled classes. Like writing inline styles, but not.",
   "main": "build/main.js",
   "typings": "compiled/main.d.ts",
